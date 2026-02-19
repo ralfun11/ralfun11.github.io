@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ilya Slashchuk - Frontend Developer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #1a1a1a;
+            --secondary-color: #4a4a4a;
+            --accent-color: #0056b3;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--primary-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ffffff;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+            color: var(--secondary-color);
+            font-size: 0.95em;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 0 0 15px 0;
+            color: var(--secondary-color);
+        }
+
+        ul {
+            margin: 0 0 20px 0;
+            padding-left: 20px;
+            color: var(--secondary-color);
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+
+        .job-company {
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+
+        .job-date {
+            font-size: 0.9em;
+            color: var(--secondary-color);
+            font-style: italic;
+        }
+
+        .note {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: -10px;
+        }
+
+        .ai-footer {
+            margin-top: 50px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border-color);
+            text-align: center;
+            font-size: 0.8em;
+            color: #888;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ilya Slashchuk</h1>
+        <div class="contact-info">
+            <span>📍 Prague, Czechia</span>
+            <span>✉️ ralfun11@me.com</span>
+            <span>🔗 <a href="https://www.linkedin.com/in/ilya-slashchuk" target="_blank">linkedin.com/in/ilya-slashchuk</a></span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Summary</h2>
+        <p>Highly skilled Frontend Developer with over 5 years of experience in crafting scalable, maintainable, and engaging web applications. Proven expertise in modern React.js, TypeScript, and GraphQL, complemented by a successful tenure as a Development Team Lead and UI Developer for enterprise-grade financial systems. Adept at driving complex projects from conception to deployment, defining front-end best practices, and mentoring cross-functional teams. Demonstrates exceptional resilience in high-pressure environments, coupled with a deep passion for web security (OWASP certified), making me an ideal fit for building secure, robust front-end architectures.</p>
+    </section>
+
+    <section>
+        <h2>Skills & Technologies</h2>
+        <ul>
+            <li><strong>Core Stack:</strong> Modern React.js, TypeScript, JavaScript, GraphQL</li>
+            <li><strong>State Management:</strong> Redux, React Built-in State Management (Context API, Hooks)</li>
+            <li><strong>Architecture & Leadership:</strong> Mentoring, Best Practices Definition, Cross-team Collaboration, Complex Task Ownership</li>
+            <li><strong>Security:</strong> Deep understanding of web vulnerabilities (OWASP Top 10 Certifications)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Senior UI Developer & Development Team Lead</span>
+                <span class="job-date">March 2021 – Present</span>
+            </div>
+            <div class="job-company">FNZ Group | Prague, Czechia</div>
+            <ul>
+                <li>Spearhead the front-end development of a large-scale, mission-critical investment platform for the banking sector, serving as a Senior UI Developer for the past 2 years.</li>
+                <li>Architect and maintain robust, high-performance web applications utilizing modern React.js, TypeScript, and GraphQL consistently over the entire 5-year tenure.</li>
+                <li>Thrive in a high-pressure, fast-paced enterprise environment, demonstrating exceptional resilience, stability, and deep domain expertise.</li>
+                <li>Ensure system reliability and seamless delivery during critical release cycles, expertly managing complex off-hours deployments with zero downtime.</li>
+                <li>Served as Development Team Lead (May 2023 – Jan 2024), successfully mentoring and leading a team of 5 developers, shaping team culture, and advocating for technical excellence.</li>
+                <li>Act as an independent task owner, consistently translating complex business requirements into robust front-end solutions from architecture design to successful deployment.</li>
+                <li>Expertly manage complex application state using Redux and native React state management tools to ensure optimal performance and seamless data flow.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Frontend Developer</span>
+                <span class="job-date">July 2020 – June 2021</span>
+            </div>
+            <div class="job-company">Ench | Prague, Czechia</div>
+            <ul>
+                <li>Developed and optimized engaging web applications, focusing on delivering a seamless user experience and complex page logic.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Technical Support Engineer</span>
+                <span class="job-date">Sept 2020 – Feb 2021</span>
+            </div>
+            <div class="job-company">Homo Developus | Prague, Czechia</div>
+            <ul>
+                <li>Provided technical troubleshooting and support, resolving complex user issues.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Software Developer</span>
+                <span class="job-date">Feb 2020 – March 2020</span>
+            </div>
+            <div class="job-company">Unicorn | Prague, Czechia</div>
+            <ul>
+                <li>Contributed to software development lifecycles in a fast-paced environment.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li><strong>OWASP Top 10 Security Certifications:</strong> Comprehensive training covering Injection, Broken Authentication, Sensitive Data Exposure, XXE, Broken Access Control, Security Misconfiguration, XSS, Insecure Deserialization, Components with Known Vulnerabilities, and Insufficient Logging and Monitoring.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Saint Petersburg State University</span>
+                <span class="job-date">2013 – 2018</span>
+            </div>
+            <div class="job-company">Bachelor's degree, Logistics, Materials, and Supply Chain Management</div>
+        </div>
+    </section>
+
+    <div class="ai-footer">
+        Drafted with the assistance of AI, but every skill, achievement, and line of experience is 100% true.
+    </div>
+</body>
+</html>
